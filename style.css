@@ -1,0 +1,64 @@
+td {
+  border: 2px solid salmon;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: right;
+}
+th {
+  border: 2px solid salmon;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: aqua;
+}
+
+td {
+  background-color: lightcyan;
+}
+
+li {
+  display: inline-block;
+  background-color: #dddddd;
+  height: 100%;
+  margin-right: 5px;
+}
+
+li:hover {
+    background-color: goldenrod;
+}
+a {
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  height: 100%;
+  width: fit-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+.menu {
+  background: radial-gradient(#dddddd, #aaa);
+  width: 100vw;
+  height: 50px;
+}
+
+#box2 {
+  display: none;
+}
