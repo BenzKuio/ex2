@@ -2,10 +2,11 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>Database Form</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -33,6 +34,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
+                    <th>Date</th>
                 </tr>
             </thead>
             <tbody>
@@ -44,22 +46,23 @@
 </html>
 
 <script>
-  // JavaScript to handle the box switching
-  const link1 = document.getElementById('link1');
-  const link2 = document.getElementById('link2');
-  const box1 = document.getElementById('box1');
-  const box2 = document.getElementById('box2');
+    // JavaScript to handle the box switching
+    const link1 = document.getElementById('link1');
+    const link2 = document.getElementById('link2');
+    const box1 = document.getElementById('box1');
+    const box2 = document.getElementById('box2');
 
-  link1.addEventListener('click', () => {
-    box1.style.display = 'block';
-    box2.style.display = 'none';
-  });
+    link1.addEventListener('click', () => {
+        box1.style.display = 'block';
+        box2.style.display = 'none';
+    });
 
-  link2.addEventListener('click', () => {
-    box1.style.display = 'none';
-    box2.style.display = 'block';
-  });
+    link2.addEventListener('click', () => {
+        box1.style.display = 'none';
+        box2.style.display = 'block';
+    });
 </script>
 
 </body>
+
 </html>
